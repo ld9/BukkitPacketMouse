@@ -1,0 +1,11 @@
+main: ch.dlyn.mouse.Mouse
+name: PacketMouse
+version: 0.1.1
+api-version: 1.13
+depend: [ProtocolLib]
+commands:
+  sneak:
+    description: "Allows toggling nameplate visibility."
+    permission: mouse.sneak
+    default: true
+    aliases: [s]
