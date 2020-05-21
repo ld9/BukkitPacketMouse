@@ -57,7 +57,7 @@ public class EntityHideUtil {
     }
 	
 	// CREDIT: trevorzucker@github
-	// canSee() function is modified from his NameHide plugin, which implements this functionality differently. 
+	// canSee() function is modified from his NameHide plugin
 	
 	static String[] blacklist = new String[] {
 	        "GRASS",
@@ -108,6 +108,7 @@ public class EntityHideUtil {
 	        "BLUET",
 	        "POPPY",
 	        "POTTED",
+	        "POT",
 	        "ALLIUM",
 	        "REDSTONE",
 	        "SCAFFOLDING",
@@ -121,7 +122,29 @@ public class EntityHideUtil {
 	        "SLAB",
 	        "FENCE",
 	        "LEAF",
-	        "LEAVES"
+	        "LEAVES",
+	        "GLASS",
+	        "LANTERN",
+	        "HOPPER",
+	        "PICKLE",
+	        "LEVER",
+	        "WEB",
+	        "BEACON",
+	        "HOOK",
+	        "BUTTON",
+	        "EGG",
+	        "SIGN",
+	        "CONDUIT",
+	        "CORAL",
+	        "SCAFFOLDING",
+	        "BED",
+	        "BREWING_STAND",
+	        "SKULL",
+	        "HEAD",
+	        "BANNER",
+	        "GRINDSTONE",
+	        "LECTERN",
+	        "STONECUTTER"
 	    };
 	
 	public static boolean canSee(Player p, Player other, boolean sprinting) {

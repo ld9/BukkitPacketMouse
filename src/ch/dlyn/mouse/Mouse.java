@@ -52,6 +52,10 @@ public class Mouse extends JavaPlugin {
 						if (sneaker.equals(looker)) {
 							continue;
 						}
+						
+						if (!sneaker.getLocation().getWorld().equals(looker.getLocation().getWorld())) {
+							continue;
+						}
 
 						if (!EntityHideUtil.canSee(looker, sneaker, false)) {
 							EntityHideUtil.hideEntity(looker, sneaker, Mouse.manager);
